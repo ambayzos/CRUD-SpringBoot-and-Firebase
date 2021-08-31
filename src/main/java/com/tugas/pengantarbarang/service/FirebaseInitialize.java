@@ -23,7 +23,7 @@ public class FirebaseInitialize {
 			 serviceAccount = new FileInputStream("./serviceAccount.json");
 					FirebaseOptions options = new FirebaseOptions.Builder()
 					  .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-					  .setDatabaseUrl("https://pengantarbarang-ec503-default-rtdb.asia-southeast1.firebasedatabase.app")
+					  .setDatabaseUrl("firebase url-database")
 					  .build();
 					FirebaseApp.initializeApp(options);
 			
